@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+a.sort()
+smin=a[1]
+smax=a[len(a)-2]
+print(smax,smin,end="")
