@@ -1,0 +1,11 @@
+
+myls=list(map(int,input().split()))
+rls=[]
+for i in range(len(myls)):
+  if myls[i]%5!=0:
+   rls.append(myls[i])
+for j in range(len(rls)):
+  if j==len(rls)-1:
+    print(rls[j],end="")
+  else:
+    print(rls[j],end=" ")
