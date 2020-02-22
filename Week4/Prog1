@@ -1,0 +1,13 @@
+n=input()
+n0=0
+n1=0
+for i in range(len(n)):
+  if n[i]=='0':
+    n0=n0+1
+  elif n[i]=='1':
+    n1=n1+1
+if n0==1 or n1==1:
+  print("YES",end="")
+else:
+  print("NO",end="")
+    
